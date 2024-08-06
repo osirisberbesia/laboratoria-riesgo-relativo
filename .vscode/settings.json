@@ -8,5 +8,8 @@
             "driver": "BigQuery",
             "projectId": "id-riesgo"
         }
+    ],
+    "cSpell.words": [
+        "cuartil"
     ]
 }
