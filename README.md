@@ -1,9 +1,13 @@
-<div style="text-align: center;">
-    <img src="logo.png" alt="alt text" style="width: 40%;"/>
-</div>
+<table><center>
+  <tr>
+    <td>
+      <img src="logo.png" alt="alt text" width="50%"/>
+    </td>
+  </tr>
+</table>
 
 <h1 style="color:#8C5511;">Proyecto 3 - Banco Super Caja</h1>
-<h2 style="color:#8C5511;">Riesgo Relativo</h2>
+<h2 style="color:#8C5511;">Riesgo Relativo</h2></center>
 
 
 
