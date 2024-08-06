@@ -3,7 +3,6 @@
 # Proyecto 3 - Banco Super Caja
 # Riesgo Relativo
 
-
 ## Introducción
 
 En respuesta al incremento de solicitudes de crédito debido a la reducción de tasas de interés, el banco "Super Caja" enfrenta una sobrecarga en su proceso manual de análisis de crédito. Este proyecto propone automatizar el análisis mediante técnicas avanzadas de datos para mejorar la eficiencia y precisión en la evaluación del riesgo crediticio. El objetivo es desarrollar un sistema de puntuación que clasifique a los solicitantes por riesgo, utilizando también en comparación de esta nueva métrica que se creará, una métrica existente que clasifica a los clientes entre buenos o malos pagadores, para optimizar las decisiones de concesión de crédito y reducir el riesgo de incumplimiento.
@@ -53,8 +52,8 @@ Las nuevas variables creadas fueron:
 
 * edad_cuartil: división de las edades según cuartiles, donde:
   * edad <= 42 sería Cuartil 1 
-  * edad  <= 52 sería Cuartil 2 
-  * edad  <= 63 sería Cuartil 3 
+  * edad <= 52 sería Cuartil 2 
+  * edad <= 63 sería Cuartil 3 
   * edad >= 64 sería Cuartil 4 
 
 * dummy_edad: variable de 0 y 1 que identifica si la edad para esta persona es una edad de riesgo o no.
@@ -211,10 +210,11 @@ Se han considerado diferentes criterios y sus respectivas probabilidades:
 
 La verificación de edades y la definición de valores extremos en los salarios mensuales presentan desafíos técnicos importantes. La falta de información adicional para corregir edades anómalas (por ejemplo, edades mayores a 100 años) puede llevar a datos inexactos. Asimismo, definir claramente qué se considera un "valor extremo" en los salarios es complejo y podría resultar en la inclusión de datos inexactos si no se maneja adecuadamente. Además, desglosar el número de dependientes en categorías detalladas puede complicar la recolección de datos precisos, lo que podría resultar en información incompleta.
 
-Y esto mismo con otros datos y otras variables 
+Y esto mismo con otros datos y otras variables, donde si bien es cierto, los datos fuera de rango o atípicos, se podrían analizar mejor teniendo claro la visión de la empresa respecto a estos valores.
 
 
 ### Próximos Pasos
+
 1. **Edad del Cliente**:
    - Implementar un sistema de verificación automática para detectar edades anómalas.
    - Modificar la base de datos para registrar el año de nacimiento en lugar de la edad.
@@ -235,31 +235,15 @@ Y esto mismo con otros datos y otras variables
    - Implementar auditorías periódicas para detectar y corregir datos anómalos.
 
 6. **Relación Deuda/Patrimonio**:
-   - Establecer un rango aceptable para la relación deuda/patrimonio.
+   - Establecer un rango como aceptable para la relación deuda/patrimonio.
    - Desarrollar un protocolo de revisión y corrección para entradas incorrectas.
+   - Analizar con el departamento de desarrollo un a limitación dentro del sistema para ciertos datos.
+   - Si esta variable no es ingresada por nadie, sino es resultado de un cálculo, crear una variable adicional donde se mida si el cálculo es el esperado o no para así controlarlo.
 
-
-
+   
 ## Enlaces de interés
 
-
-¿Qué variables influyen más en el riesgo de incumplimiento? 
-¿Cómo se correlacionan estas variables entre sí y con el comportamiento de pago de los clientes? 
- ¿Cómo decidir cuántos y cuáles niveles de riesgo crear? 
- ¿Cómo determino las reglas para segmentar el riesgo basado en las variables disponibles?
- ¿Qué información es realmente importante? 
- ¿Cómo comunico los riesgos identificados de manera efectiva? ¿En qué invertir los minutos que tengo para presentar?
-
-
-
-Se obtiene el unificado final.
-
-
-
-Enlaces:
-
-Referencias:
-
-[Recurso de referencia.](https://www.youtube.com/watch?v=sYc3uID4ObQ)
-
-
+ * [Presentación  ](https://docs.google.com/presentation/d/18CIAZbbIOaBr2n0FJDfhwaYs2Gms7CU3ID2MP2vReUU/edit?usp=sharing)
+* Video de Loom
+* [Dashboard](https://lookerstudio.google.com/reporting/50fe9bb0-2725-45e5-9409-f1c85a452bf7)
+* [Repositorio](https://github.com/osirisberbesia/laboratoria-riesgo-relativo)
