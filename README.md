@@ -1,4 +1,57 @@
-# preguntas
+<div style="text-align: center;">
+    <img src="logo.png" alt="alt text" style="width: 40%;"/>
+</div>
+
+<h1 style="color:#8C5511;">Proyecto 3 - Banco Super Caja</h1>
+<h2 style="color:#8C5511;">Riesgo Relativo</h2>
+
+
+
+## Introducción
+
+En respuesta al incremento de solicitudes de crédito debido a la reducción de tasas de interés, el banco "Super Caja" enfrenta una sobrecarga en su proceso manual de análisis de crédito. Este proyecto propone automatizar el análisis mediante técnicas avanzadas de datos para mejorar la eficiencia y precisión en la evaluación del riesgo crediticio. El objetivo es desarrollar un sistema de puntuación que clasifique a los solicitantes por riesgo, utilizando también en comparación de esta nueva métrica que se creará, una métrica existente que clasifica a los clientes entre buenos o malos pagadores, para optimizar las decisiones de concesión de crédito y reducir el riesgo de incumplimiento.
+
+
+## Objetivos
+
+* Identificar y tratar datos nulos, duplicados y outliers en el conjunto de datos.
+* Crear nuevas variables y tablas auxiliares para mejorar la calidad y la riqueza del análisis.
+* Calcular cuartiles para las variables de Edad y Cantidad de Préstamos para detectar posibles inconsistencias y entender la distribución.
+* Segmentar la variable more_90_days_overdue para obtener insights sobre el comportamiento de los clientes en relación a su morosidad.
+* Automatizar el proceso de análisis crediticio y desarrollar un nuevo score crediticio para evaluar el riesgo relativo.
+* Incrementar la eficiencia operativa del banco y aliviar la sobrecarga del equipo de análisis de crédito.
+
+## Integrante
+* Osiris Berbesia
+## Herramientas y Tecnologías
+* SQL de BigQuery
+* Visual Studio Code
+* Markdown
+* Google Console - Python
+* Documentación de librerías Python:
+  * Numpy
+  * Matplotlib
+  * Seaborn
+  * Pandas
+* OpenAI - ChatGPT
+* Google Slides
+
+
+## Procesamiento y análisis
+
+* Análisis de datos nulos, sustitución de nulos por promedios de sus respectivas variables.
+* Datos duplicados en variables de datos únicos, no encontrados.
+* Cálculo de cuartiles para las variables que serán estudiadas.
+
+
+## Creación de nuevas variables
+## Unificación de tablas
+## Resultados y Conclusiones
+## Limitaciones-Próximos Pasos
+## Limitaciones
+## Próximos pasos
+## Enlaces de interés
+
 
 ¿Qué variables influyen más en el riesgo de incumplimiento? 
 ¿Cómo se correlacionan estas variables entre sí y con el comportamiento de pago de los clientes? 
