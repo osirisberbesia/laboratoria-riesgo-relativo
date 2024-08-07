@@ -43,8 +43,13 @@ En respuesta al incremento de solicitudes de crédito debido a la reducción de 
  * Se realiza [la correlación entre las variables](correlacion.md) que miden los atrasos entre 30-59 días, 60-89 días y más de 90 días, resultando en una correlación positiva, casi perfecta.
  * Una vez creado los cuartiles se calcula el riesgo relativo de la posibilidad de ser un mal pagador de un grupo de personas, en comparación con los otros grupos de su misma naturaleza. (Es decir, cuartil de edad 1, versus los otros cuartiles de edad)
 * Para la regresión logística, se tomó en cuenta el dato default_flag para el entrenamiento del modelo.
+
   Ejemplo:
+
+
   ![alt text](Imagenes/imagen.png)
+
+
 Obteniendo así, el coeficiente y el intercepto.
 
 ## Creación de nuevas variables
@@ -217,7 +222,7 @@ Y esto mismo con otros datos y otras variables, donde si bien es cierto, los dat
 
 1. **Edad del Cliente**:
    - Implementar un sistema de verificación automática para detectar edades anómalas.
-   - Modificar la base de datos para registrar el año de nacimiento en lugar de la edad.
+   - Modificar la base de datos para registrar las fecha de nacimiento en lugar de solo la edad.
 
 2. **Último Salario Mensual**:
    - Desarrollar un mecanismo de validación y actualización de valores salariales.
@@ -244,6 +249,6 @@ Y esto mismo con otros datos y otras variables, donde si bien es cierto, los dat
 ## Enlaces de interés
 
  * [Presentación  ](https://docs.google.com/presentation/d/18CIAZbbIOaBr2n0FJDfhwaYs2Gms7CU3ID2MP2vReUU/edit?usp=sharing)
-* Video de Loom
+* [Video de Loom](https://www.loom.com/share/3571516cc7c04f9da78954e6417f2885?sid=18887e38-09cb-4ac8-ac28-eb4e3bd8cbf1)
 * [Dashboard](https://lookerstudio.google.com/reporting/50fe9bb0-2725-45e5-9409-f1c85a452bf7)
 * [Repositorio](https://github.com/osirisberbesia/laboratoria-riesgo-relativo)
